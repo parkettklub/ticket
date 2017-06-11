@@ -43,9 +43,6 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ticket.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_ticket.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
@@ -55,13 +52,16 @@
     <ClCompile Include="GeneratedFiles\qrc_ticket.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="ticket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="ticket.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="ticket.ui">
       <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ticket.h">
+      <Filter>Header Files</Filter>
     </CustomBuild>
     <CustomBuild Include="ticket.qrc">
       <Filter>Resource Files</Filter>
